@@ -1,0 +1,106 @@
+.contacts-section {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container-contacts {
+    padding-top: 48px;
+    width: 100%;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+.contacts-flex1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-flex2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.contacts-map {
+    width: 600px;
+    height: 480px;
+    border: 1px solid transparent;
+    border-radius: 32px;
+}
+
+.contacts-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 420px;
+    height: 480px;
+    top: 0.87px;
+    border-radius: 32px;
+    background-color: var(--color-text-primery-dark);
+    background-image: url(../Images/background-Group-Content-form.png);
+}
+
+.contacts-flex3 {
+    width: 100%;
+    max-width: 310px;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.appointment {
+    color: var(--color-primery-light);
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    max-width: 310px;
+    height: 52px;
+}
+
+.contacts-form {
+    width: 100%;
+    max-width: 310px;
+    height: 301px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    color: var(--color-primery-light);
+}
+
+
+.contacts-flex5 {
+    width: 100%;
+    max-width: 281px;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Button need fix!!!! */
+.contacts-button {
+    margin: 0;
+}
+
+.contacts-privacy {
+    width: 100%;
+    max-width: 213px;
+    height: 36px;
+    text-align: center;
+    color: var(--color-privacy);
+    font-size: 12px;
+}
+
+.contacts-privacy-link {
+    color: var(--color-privacy);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}

@@ -1,0 +1,50 @@
+.main-section {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 700px;
+    background-image: url(../Images/main-section-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-main {
+    width: 100%;
+    max-width: 1030px;
+    height: 408px;
+    margin: 0 auto;
+}
+
+.hero-subtitle {
+    padding-top: 125px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    line-height: 21px;
+}
+
+.hero-title {
+    color: var(--color-primery-blue);
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 114px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+/* Button */
+
+
+/* .button[disabled] {
+  background-color: lightgray;
+  border-color: currentColor;
+  color: gray;
+} */
+.consultation {
+    color: var(--color-consultation);
+    width: 238px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+}

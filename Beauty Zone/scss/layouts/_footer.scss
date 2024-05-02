@@ -1,0 +1,130 @@
+.footer {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    height: 278px;
+    background-color: var(--color-text-primery-dark);
+    background-image: url(../Images/background-footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-image {
+    max-width: 1440px;
+    height: 278px;
+    background-image: url(../Images/footer-image.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 76px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.footer-link {
+    color: var(--color-primery-light);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    transition: color 0.2s;
+    transition: font-weight 0.2s;
+    transition: line-height 0.2s;
+}
+
+.footer-link:hover {
+    color: var(--color-primery-blue);
+    font-weight: 700;
+}
+
+.footer-nav {
+    width: 204px;
+    height: 124px;
+    gap: 16px;
+}
+
+.footer-nav-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.footer-addres {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    width: 192px;
+    height: 166px;
+}
+
+.footer-addres-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.address {
+    color: var(--color-primery-light);
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    transition: color 0.2s;
+    transition: font-weight 0.2s;
+    transition: line-height 0.2s;
+}
+
+.address:hover {
+    color: var(--color-primery-blue);
+    font-weight: 700;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    fill: var(--color-primery-light);
+}
+
+.footer-icon {
+    transition: color 0.2s;
+    transition: transform 0.2s;
+}
+
+.footer-icon:hover {
+    fill: var(--color-primery-blue);
+    transform: scale(1.15);
+}
+
+.privacy-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.privacy-link {
+    color: var(--color-primery-light);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    transition: 0.2s;
+}
+
+.privacy-link:hover {
+    color: var(--color-primery-blue);
+    transition: color;
+}
+
+.copyright {
+    color: var(--color-privacy);
+    font-size: 13px;
+    line-height: 15px;
+}

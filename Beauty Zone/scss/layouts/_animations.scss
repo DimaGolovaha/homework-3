@@ -1,0 +1,87 @@
+.star-1 {
+    position: absolute;
+    top: 336px;
+    left: 858px;
+    fill: var(--color-footer-background);
+
+    animation-name: shining-star-1;
+    animation-duration: 1.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes shining-star-1 {
+    0% {
+        fill: var(--color-footer-background);
+        transform: scale(1);
+    }
+
+    100% {
+        fill: gold;
+        transform: scale(1.2);
+    }
+}
+
+.star-1:hover {
+    animation-play-state: paused;
+}
+
+.star-2 {
+    position: absolute;
+    top: 32px;
+    left: 1212px;
+    fill: var(--color-primery-blue);
+    animation-name: shining-star-2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes shining-star-2 {
+    0% {
+        fill: var(--color-primery-blue);
+        transform: scale(1);
+        transform: rotate(0);
+    }
+
+    100% {
+        fill: gold;
+        transform: scale(1.3);
+        transform: rotate(180deg);
+    }
+}
+
+.star-2:hover {
+    animation-play-state: paused;
+}
+
+.star-3 {
+    position: absolute;
+    top: 270px;
+    left: 1213px;
+    fill: var(--color-privacy);
+
+    animation-name: shining-star-3;
+    animation-duration: 0.8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes shining-star-3 {
+    0% {
+        fill: var(--color-privacy);
+        transform: scale(1);
+    }
+
+    100% {
+        fill: silver;
+        transform: scale(2);
+    }
+}
+
+.star-1:hover {
+    animation-play-state: paused;
+}

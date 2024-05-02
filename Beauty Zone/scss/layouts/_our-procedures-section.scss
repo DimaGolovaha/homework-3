@@ -1,0 +1,150 @@
+.procedures-section {
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+.container-procedures {
+    width: 100%;
+    max-width: 1216px;
+    height: 621px;
+    margin: 0 auto;
+}
+
+.procedures-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.procedures-title-box {
+    width: 510px;
+    height: 74px;
+}
+
+.procedures-content-box {
+    width: 1216px;
+    height: 499px;
+}
+
+.procedures-flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.procedures-flex3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+/* Carousel */
+.carousel-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid var(--color-text-primery-dark);
+    background-color: var(--color-primery-light);
+    fill: var(--color-text-primery-dark);
+    cursor: pointer;
+}
+
+.carousel-arrow {
+    fill: var(--color-text-primery-dark);
+    width: 16px;
+    height: 16px;
+}
+
+.carousel-button:hover {
+    background-color: var(--color-primery-blue);
+    border-color: var(--color-primery-light);
+    fill: var(--color-primery-light);
+}
+
+.carousel-button:hover .carousel-arrow {
+    fill: var(--color-primery-light);
+    outline: none;
+}
+
+.carousel-button.next {
+    transform: rotate(180deg);
+}
+
+.carousel-position-indicator {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.icon-ellipse.active {
+    fill: var(--color-primery-blue);
+}
+
+.icon-ellipse.unactive {
+    fill: var(--color-privacy);
+}
+
+.procedures-cards {
+    display: flex;
+    gap: 16px;
+    color: var(--color-primery-light);
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.procedures-cards h4 {
+    text-align: center;
+    width: 152px;
+    height: 52px;
+    margin: 372px 77px 32px 115px;
+    border: 1px solid transparent;
+}
+
+.procedures-card {
+    width: 344px;
+    height: 456px;
+    border: 1px solid transparent;
+    border-radius: 4px 120px 4px 120px;
+    transition: transform 0.2s;
+}
+
+.procedures-card:hover {
+    transform: scale(1.05);
+}
+
+.gradient {
+    width: 344px;
+    height: 456px;
+    border: 0.1px solid transparent;
+    border-radius: 4px 120px 4px 120px;
+    background-image: linear-gradient(180.05deg,
+            rgba(1, 28, 68, 0) 48.53%,
+            rgba(1, 28, 68, 0.725825) 84.61%,
+            #011c44 101.39%);
+    background-repeat: no-repeat;
+}
+
+.pro-card1 {
+    background-image: url(../Images/procedures\ image\ 1.jpeg);
+    background-position: -122px -194px;
+}
+
+.pro-card2 {
+    background-image: url(../Images/procedures\ image\ 2.jpeg);
+    background-position: -212px -28px;
+}
+
+.pro-card3 {
+    background-image: url(../Images/procedures\ image\ 3.jpeg);
+    background-position: -52px -2px;
+}
